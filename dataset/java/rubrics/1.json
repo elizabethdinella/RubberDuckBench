@@ -20,7 +20,7 @@
         "points": 3,
         "subitems": [
             {
-                "desc": "The answer should state that the value of singleFolderMode does depend on the value of drawer. If it is not mentioned, 2 points should be deducted.",
+                "desc": "The answer should state that the value of singleFolderMode does not depend on the value of drawer. If it is not mentioned, 2 points should be deducted.",
                 "points": 2,
                 "lie": false
             },
