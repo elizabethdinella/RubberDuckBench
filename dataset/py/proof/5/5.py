@@ -34,7 +34,7 @@ def with_check(build_setup_result):
 
 def without_check(build_setup_result):
     build_directory = environment.get_value('BUILD_DIR')
-    if not build_setup_result or not build_directory: #edit suggested by the PR comment
+    if not build_setup_result: #edit suggested by the PR comment
         raise CorpusPruningException('Failed to setup build.')
 
     runner = Runner(build_directory)
